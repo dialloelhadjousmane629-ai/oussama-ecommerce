@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Oussama</title>
+<meta name="description" content="Contactez l'équipe Oussama pour toute question sur nos produits ou vos commandes.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo">Oussama<span>.</span></a>
+    <nav class="nav-links">
+      <a href="index.html">Accueil</a>
+      <a href="produits.html">Produits</a>
+      <a href="apropos.html">À propos</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a href="#" class="cart-btn" aria-label="Panier">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        <span class="cart-count">0</span>
+      </a>
+      <button class="menu-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-banner">
+  <div class="container">
+    <span class="eyebrow">Une question ?</span>
+    <h1>Contactez-nous</h1>
+    <p>Notre équipe est à votre écoute pour répondre à toutes vos questions.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="contact-grid">
+      <div>
+        <div class="contact-info-card">
+          <div class="contact-info-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          </div>
+          <div>
+            <h4>Adresse</h4>
+            <p>123 Avenue Hassan II, Casablanca, Maroc</p>
+          </div>
+        </div>
+        <div class="contact-info-card">
+          <div class="contact-info-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .6 2.9a2 2 0 0 1-.4 2.1L8 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.5 2.9.6a2 2 0 0 1 1.7 2z"></path></svg>
+          </div>
+          <div>
+            <h4>Téléphone</h4>
+            <p>+212 6 00 00 00 00</p>
+          </div>
+        </div>
+        <div class="contact-info-card">
+          <div class="contact-info-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"></path><path d="m22 6-10 7L2 6"></path></svg>
+          </div>
+          <div>
+            <h4>E-mail</h4>
+            <p>contact@oussama-shop.com</p>
+          </div>
+        </div>
+        <div class="contact-info-card">
+          <div class="contact-info-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          </div>
+          <div>
+            <h4>Horaires</h4>
+            <p>Lun - Sam : 9h00 - 19h00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <div class="form-success">Merci ! Votre message a bien été envoyé, nous vous répondrons rapidement.</div>
+        <div class="form-error">Une erreur est survenue lors de l'envoi. Merci de réessayer ou de nous contacter directement par e-mail.</div>
+        <form>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Nom complet</label>
+              <input type="text" id="name" name="name" placeholder="Votre nom" required>
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="vous@exemple.com" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Sujet</label>
+            <input type="text" id="subject" name="subject" placeholder="Objet de votre message" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Écrivez votre message ici..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Envoyer le message</button>
+          <p class="form-note">Réponse sous 24-48h ouvrées.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="logo">Oussama<span>.</span></a>
+        <p>Votre boutique en ligne pour la mode, l'électronique, la maison et les accessoires.</p>
+        <div class="social-links" style="margin-top:18px;">
+          <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"></path></svg></a>
+          <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></a>
+          <a href="#" aria-label="Twitter"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.1.9 4.4 4.4 0 0 0 2-2.5 8.6 8.6 0 0 1-2.8 1 4.3 4.3 0 0 0-7.4 4 12.3 12.3 0 0 1-9-4.5 4.3 4.3 0 0 0 1.3 5.8 4.3 4.3 0 0 1-2-.5v.1a4.3 4.3 0 0 0 3.5 4.2 4.3 4.3 0 0 1-1.9.1 4.3 4.3 0 0 0 4 3 8.6 8.6 0 0 1-6.4 1.8A12.2 12.2 0 0 0 8 21c8 0 12.4-6.6 12.4-12.4v-.6A8.7 8.7 0 0 0 23 3z"></path></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Boutique</h4>
+        <ul>
+          <li><a href="produits.html">Tous les produits</a></li>
+          <li><a href="produits.html">Mode</a></li>
+          <li><a href="produits.html">Électronique</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Entreprise</h4>
+        <ul>
+          <li><a href="apropos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>contact@oussama-shop.com</li>
+          <li>+212 6 00 00 00 00</li>
+          <li>Casablanca, Maroc</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Oussama. Tous droits réservés.</span>
+      <span>Conditions générales · Politique de confidentialité</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="js/emailjs-config.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
